@@ -9,7 +9,8 @@ Dieses Skript lädt eine Wii-Spieldatenbank von gametdb.com herunter, welche Inf
 Funktionsweise
 
 Datenbank-Download:
-    Das Skript lädt die Datenbank-Datei herunter und verarbeitet diese zeilenweise, wobei der jeweilige Disc-Name extrahiert wird.
+
+Das Skript lädt die Datenbank-Datei herunter und verarbeitet diese zeilenweise, wobei der jeweilige Disc-Name extrahiert wird.
 
 Aufgabensammlung:
     Für jeden ermittelten Disc-Eintrag wird eine Liste von Download-Aufgaben erstellt. Jede Aufgabe enthält den Download-Link sowie den Zielpfad für das jeweilige Cover-Bild.

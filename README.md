@@ -16,20 +16,6 @@ Dieses Skript lädt eine **Wii-Datenbank** von [GameTDB.com](https://www.gametdb
   - Die heruntergeladenen Cover-Bilder werden in einem **Basisordner** namens `Images` gespeichert.  
   - Unterordner werden nach **Sprache** und anschließend nach **Cover-Typ** angelegt.  
 
-### 🔍 Funktionsweise  
-
-1. **🛠 UI-Sprache wählen**  
-   - Der Benutzer wählt, ob die Eingabeaufforderungen in **Deutsch** oder **Englisch** angezeigt werden sollen.  
-2. **🌎 DB-Sprachen auswählen**  
-   - Alle verfügbaren Wii-Datenbank-Sprachen werden angezeigt.  
-   - Der Benutzer gibt einzelne Sprachcodes (*z. B. "EN,DE,FR"*) oder `"ALL"` ein.  
-3. **📥 Datenbank laden & Links sammeln**  
-   - Für jede gewählte Sprache wird die **Wii-Datenbank** heruntergeladen.  
-   - Die **Disc-ID** wird extrahiert und Download-Links für alle Cover-Typen generiert.  
-4. **⚡ Paralleler Download**  
-   - Mithilfe eines **Thread-Pools** werden die Bilder parallel heruntergeladen.  
-5. **💾 Speicherung**  
-   - Die Bilder werden in einem **Verzeichnisbaum** unter dem Ordner `Images` abgelegt.  
 
 ### 📌 Voraussetzungen  
 
@@ -63,21 +49,6 @@ This script downloads a **Wii database** from [GameTDB.com](https://www.gametdb.
 - **🗂 Structured Storage**  
   - The downloaded cover images are stored in a **base folder** named `Images`.  
   - Subfolders are created based on **language**, followed by **cover type**.  
-
-### 🔍 How it works  
-
-1. **🛠 Choose UI language**  
-   - The user selects whether the prompts should be displayed in **German** or **English**.  
-2. **🌎 Select DB languages**  
-   - All available Wii database languages are displayed.  
-   - The user enters individual language codes (*e.g., "EN,DE,FR"*) or `"ALL"`.  
-3. **📥 Load database & collect links**  
-   - The **Wii database** is downloaded for each selected language.  
-   - The **Disc ID** is extracted, and download links for all cover types are generated.  
-4. **⚡ Parallel download**  
-   - Using a **thread pool**, the images are downloaded in parallel.  
-5. **💾 Storage**  
-   - The images are stored in a **directory tree** under the `Images` folder.  
 
 ### 📌 Requirements  
 

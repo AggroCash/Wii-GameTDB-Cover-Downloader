@@ -13,13 +13,16 @@ Datenbank-Download:
 Das Skript lädt die Datenbank-Datei herunter und verarbeitet diese zeilenweise, wobei der jeweilige Disc-Name extrahiert wird.
 
 Aufgabensammlung:
-    Für jeden ermittelten Disc-Eintrag wird eine Liste von Download-Aufgaben erstellt. Jede Aufgabe enthält den Download-Link sowie den Zielpfad für das jeweilige Cover-Bild.
+
+ Für jeden ermittelten Disc-Eintrag wird eine Liste von Download-Aufgaben erstellt. Jede Aufgabe enthält den Download-Link sowie den Zielpfad für das jeweilige Cover-Bild.
 
 Parallele Downloads:
-    Anstatt jeden Download sequenziell auszuführen, werden alle gesammelten Aufgaben mithilfe von concurrent.futures.ThreadPoolExecutor parallel abgearbeitet. Dadurch wird der Gesamtprozess deutlich beschleunigt.
+
+  Anstatt jeden Download sequenziell auszuführen, werden alle gesammelten Aufgaben mithilfe von concurrent.futures.ThreadPoolExecutor parallel abgearbeitet. Dadurch wird der Gesamtprozess deutlich beschleunigt.
 
 Speicherung:
-    Die heruntergeladenen Bilder werden in einem Verzeichnisbaum abgelegt, der zuerst nach Sprache und dann nach Cover-Typ strukturiert ist.
+
+   Die heruntergeladenen Bilder werden in einem Verzeichnisbaum abgelegt, der zuerst nach Sprache und dann nach Cover-Typ strukturiert ist.
 
 Voraussetzungen
 

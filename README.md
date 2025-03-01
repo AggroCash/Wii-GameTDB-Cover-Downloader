@@ -76,8 +76,6 @@ Dieses Skript lädt eine **Wii-Datenbank** von [GameTDB.com](https://www.gametdb
 
 ---
 
-# 🎮 Wii Cover Downloader
-
 ## 📌 Description (English)
 
 This script downloads a **Wii database** from [GameTDB.com](https://www.gametdb.com), which contains information about Wii games in various languages. For each entry in the database, multiple **cover images** (*2D, 3D, FULL, etc.*) are downloaded from predefined URLs.

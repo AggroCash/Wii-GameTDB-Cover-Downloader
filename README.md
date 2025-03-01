@@ -35,6 +35,7 @@ Starte das Skript über die Kommandozeile, z. B.:
 Nach erfolgreichem Download findest du die Dateien im Unterordner Images.
 
 English
+
 Description
 
 This script downloads a Wii game database from gametdb.com which contains information about Wii games. For each entry in the database, it downloads multiple cover images (e.g., COVER, COVER3D, COVERFULL, etc.) from specified URLs. The images are saved in a structured directory tree under the Images folder, organized by language and cover type.

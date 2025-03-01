@@ -34,7 +34,12 @@ Dieses Skript lädt eine **Wii-Datenbank** von [GameTDB.com](https://www.gametdb
    - Stelle sicher, dass **Python 3.x** auf deinem System installiert ist.
 
 2. **Skript speichern**  
-   - Lade das Skript herunter und speichere es in einem gewünschten Verzeichnis.
+   - Lade das Skript herunter und speichere es in einem gewünschten Verzeichnis, oder klone es mit:
+   
+   ```bash
+   git clone https://github.com/AggroCash/Wii-GameTDB-Cover-Downloader
+   cd Wii-GameTDB-Cover-Downloader
+   ```
 
 3. **Skript starten**  
    - Öffne die Kommandozeile (*cmd, PowerShell oder Terminal*) und navigiere zu dem Verzeichnis, in dem das Skript gespeichert ist.
@@ -69,10 +74,8 @@ Dieses Skript lädt eine **Wii-Datenbank** von [GameTDB.com](https://www.gametdb
    - Nach Abschluss der Downloads wird eine Übersicht angezeigt, wie viele Cover pro Kategorie und Sprache gefunden bzw. nicht gefunden wurden.
    - Falls Fehler aufgetreten sind, wird der Benutzer gefragt, ob ein `error.log` erstellt werden soll, in dem die fehlgeschlagenen Downloads gruppiert nach Sprache und Cover-Typ aufgeführt werden.
 
-10. Speicherung der Cover  
+10. Speicherung der Cover
    - Nach Abschluss der Downloads findest du die Bilder im Ordner `Images`, organisiert nach **Sprache** und **Cover-Typ**.
-
-
 
 ---
 
@@ -110,7 +113,12 @@ This script downloads a **Wii database** from [GameTDB.com](https://www.gametdb.
    - Ensure that **Python 3.x** is installed on your system.
 
 2. **Save the Script**  
-   - Download the script and save it in your desired directory.
+   - Download the script and save it in your desired directory, or clone it using:
+   
+   ```bash
+   git clone https://github.com/AggroCash/Wii-GameTDB-Cover-Downloader
+   cd Wii-GameTDB-Cover-Downloader
+   ```
 
 3. **Run the Script**  
    - Open the command line (*cmd, PowerShell, or Terminal*) and navigate to the script directory.

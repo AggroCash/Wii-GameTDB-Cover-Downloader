@@ -25,7 +25,7 @@ COVER = {
     'DISCCUSTOM2': 'http://art.gametdb.com/wii/disccustom/',
 }
 
-base_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'DATA')
+base_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Images')
 os.makedirs(base_directory, exist_ok=True)
 
 # Schritt 1: Sammle alle Download-Aufgaben

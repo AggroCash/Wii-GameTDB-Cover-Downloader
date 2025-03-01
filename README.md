@@ -1,6 +1,7 @@
 Wii Cover Downloader
 
-Deutsch
+Deutsche
+
 Beschreibung
 
 Dieses Skript lädt eine Wii-Spieldatenbank von gametdb.com herunter, welche Informationen zu Wii-Spielen enthält. Anschließend werden für jeden Eintrag in der Datenbank mehrere Cover-Bilder (z. B. COVER, COVER3D, COVERFULL usw.) von definierten URLs heruntergeladen. Die Bilder werden in einem strukturierten Verzeichnisbaum unter dem Ordner Images gespeichert – sortiert nach Sprache und Cover-Typ.

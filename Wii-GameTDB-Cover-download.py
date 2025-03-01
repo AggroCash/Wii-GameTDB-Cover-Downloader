@@ -11,14 +11,14 @@ WIIDB = {
 }
 
 COVER = {
-    'COVER': 'http://art.gametdb.com/wii/cover/',
-    'COVER3D': 'http://art.gametdb.com/wii/cover3D/',
-    'COVERFULL': 'http://art.gametdb.com/wii/coverfull/',
-    'COVER2': 'http://art.gametdb.com/wii/cover/',
-    'COVER3D2': 'http://art.gametdb.com/wii/cover3D/',
-    'COVERFULL2': 'http://art.gametdb.com/wii/coverfull/',
-    'COVERB': 'http://art.gametdb.com/wii/coverB/',
-    'COVER3DB': 'http://art.gametdb.com/wii/cover3DB/',
+    '2D': 'http://art.gametdb.com/wii/cover/',
+    '3D': 'http://art.gametdb.com/wii/cover3D/',
+    'FULL': 'http://art.gametdb.com/wii/coverfull/',
+    '2D2': 'http://art.gametdb.com/wii/cover/',
+    '3D2': 'http://art.gametdb.com/wii/cover3D/',
+    'FULL2': 'http://art.gametdb.com/wii/coverfull/',
+    '2DB': 'http://art.gametdb.com/wii/coverB/',
+    '3DB': 'http://art.gametdb.com/wii/cover3DB/',
     'DISC': 'http://art.gametdb.com/wii/disc/',
     'DISCCUSTOM': 'http://art.gametdb.com/wii/disccustom/',
     'DISC2': 'http://art.gametdb.com/wii/disc/',
